@@ -319,7 +319,7 @@ void SsTree::insert(const Point &point)
 
 void SsTree::insert(Point &point, const std::string &path)
 {
-    point.path = "/home/educs/aea/aea/F" + path;
+    point.path = "//home/renatoseb/2023-2/eda/labs/ss-tree/code/ss-tree/" + path;
     if (!root)
     {
         root = new SsLeaf();
